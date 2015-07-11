@@ -21,6 +21,8 @@
 	<string>114D26CF-A5D6-4E87-9033-FE649B27ECFF</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<key>IDECodeSnippetSummary</key>
+	<string>iwd</string>
 	<key>IDECodeSnippetTitle</key>
 	<string>initWithDic</string>
 	<key>IDECodeSnippetUserSnippet</key>
