@@ -9,7 +9,7 @@
 		<string>Preprocessor</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>#define &lt;#NAME#&gt; &lt;#PARAMETER#&gt;</string>
+	<string>define &lt;#NAME#&gt; &lt;#PARAMETER#&gt;</string>
 	<key>IDECodeSnippetIdentifier</key>
 	<string>D085ECD5-A779-43DC-96E7-A7FCC5A03228</string>
 	<key>IDECodeSnippetLanguage</key>
