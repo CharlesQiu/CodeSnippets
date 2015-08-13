@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>dateconvert</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>ClassImplementation</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>/** 处理日期格式 */
+- (NSString *)convertDateFormatterFromString:(NSString *)inputDateString {
+    
+    NSDateFormatter *inputFormatter = [[NSDateFormatter alloc] init];
+    NSDateFormatter *outputFormatter = [[NSDateFormatter alloc] init];
+    inputFormatter.dateFormat = @"yyyy-MM-dd'T'HH:mm:ss";
+    outputFormatter.dateFormat = @"yyyy.MM.dd HH:mm";
+    NSDate *inputDate = [inputFormatter dateFromString:inputDateString];
+
+    return [outputFormatter stringFromDate:inputDate];
+}
+</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>3951C631-BEC4-4CD7-AEAB-B61C0F4A0A0D</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<key>IDECodeSnippetSummary</key>
+	<string>转换日期格式-cdf</string>
+	<key>IDECodeSnippetTitle</key>
+	<string>转换日期格式</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>2</integer>
+</dict>
+</plist>

@@ -3,21 +3,21 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>slog</string>
+	<string>xann</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>CodeBlock</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>NSLog(@"&lt;#description#&gt; = %&lt;#@#&gt;", &lt;#string#&gt;);</string>
+	<string>XCTAssertNotNil(&lt;#expression#&gt;, &lt;#message#&gt;);</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>EB550C7D-63C0-48F4-A519-394EBEECE3C9</string>
+	<string>8D7F503D-80DF-48A0-88DE-19B5B302AA00</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Objective-C</string>
 	<key>IDECodeSnippetSummary</key>
-	<string>NSLog</string>
+	<string>Assert not nil for XCTest</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>NSLog</string>
+	<string>XCT Assert Not Nil</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

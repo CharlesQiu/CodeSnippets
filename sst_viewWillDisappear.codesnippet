@@ -3,39 +3,29 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>iwc</string>
+	<string>viewWillDisappear</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>ClassImplementation</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>/** 生成颜色图片 (version 1.5.1)*/
-+ (UIImage *)imageWithColor:(UIColor *)color
-{
-    CGRect rect = CGRectMake(0.0f, 0.0f, 1.0f, 1.0f);
-    UIGraphicsBeginImageContext(rect.size);
-    CGContextRef context = UIGraphicsGetCurrentContext();
-    
-    CGContextSetFillColorWithColor(context, [color CGColor]);
-    CGContextFillRect(context, rect);
-    
-    UIImage *image = UIGraphicsGetImageFromCurrentImageContext();
-    UIGraphicsEndImageContext();
-    
-    return image;
+	<string>- (void)viewWillDisappear:(BOOL)animated {
+    [super viewWillDisappear:animated];
 }
 </string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>167E2212-3410-4B41-A31B-52E66D0077FF</string>
+	<string>4D58C001-2ACF-46C7-9934-7F38F4AF628B</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<key>IDECodeSnippetPlatformFamily</key>
+	<string>iphoneos</string>
 	<key>IDECodeSnippetSummary</key>
-	<string>iwc</string>
+	<string>viewWillDisappear</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>生成颜色图片</string>
+	<string>viewWillDisappear</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
-	<integer>0</integer>
+	<integer>2</integer>
 </dict>
 </plist>

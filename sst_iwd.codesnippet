@@ -12,9 +12,12 @@
 	<string>- (instancetype)initWithDic:(NSDictionary *)dic
 {
     self = [super init];
-    if (self) {
-        
+    if (!self) {
+        return nil;
     }
+    
+    &lt;#codes#&gt;
+    
     return self;
 }</string>
 	<key>IDECodeSnippetIdentifier</key>
