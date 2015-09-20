@@ -3,13 +3,13 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>imv</string>
+	<string>imageview</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>CodeExpression</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>UIImageView *&lt;#imageView#&gt; = [[UIImageView alloc] initWithImage:[UIImage imageNamed:@"&lt;#image name#&gt;"]</string>
+	<string>UIImageView *&lt;#imageView#&gt; = [[UIImageView alloc] initWithImage:[UIImage imageNamed:&lt;#@"image name"#&gt;]]</string>
 	<key>IDECodeSnippetIdentifier</key>
 	<string>F5C95E40-2D65-4260-AC6C-A6B3CAD2DF2D</string>
 	<key>IDECodeSnippetLanguage</key>

@@ -3,16 +3,20 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>ss</string>
+	<string>superScript</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>CodeBlock</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>NSDictionary *superScriptDict = [NSDictionary dictionaryWithObjects:@[[UIFont systemFontOfSize:12], [NSNumber numberWithInteger:1]] forKeys:@[NSFontAttributeName, (id)kCTSuperscriptAttributeName]];
-NSAttributedString *attStr = [[NSAttributedString alloc] initWithString:@"2" attributes:superScriptDict];
-NSMutableAttributedString *mutableStr = [[NSMutableAttributedString alloc] initWithString:[NSString stringWithFormat:@"￥ %li/m", model.designer.designFee]];
-[mutableStr appendAttributedString:attStr];
+	<string>NSDictionary *superScriptDict = @{NSFontAttributeName: [UIFont systemFontOfSize:8],
+                                  (id)kCTSuperscriptAttributeName: [NSNumber numberWithInteger:1]};
+NSDictionary *normalAttDict   = @{NSFontAttributeName: [UIFont systemFontOfSize:42 / 3]};
+NSAttributedString *superScriptAttStr   = [[NSAttributedString alloc] initWithString:@"2"
+                                                                          attributes:superScriptDict];
+NSMutableAttributedString *normalAttStr = [[NSMutableAttributedString alloc] initWithString:@"元/m"
+                                                                                 attributes:normalAttDict];
+[normalAttStr appendAttributedString:superScriptAttStr];
 </string>
 	<key>IDECodeSnippetIdentifier</key>
 	<string>A22B0DE2-A635-4159-84BE-4647E7247BA0</string>

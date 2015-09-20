@@ -3,22 +3,29 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>keyboardnotificationregister</string>
+	<string>navigationbar_clarity</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>CodeBlock</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>    [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(keyboardWillShow:) name:UIKeyboardWillShowNotification object:nil];
-    [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(keyboardWillHide:) name:UIKeyboardWillHideNotification object:nil];</string>
+	<string>/** 透明导航栏 */
+[self.navigationController.navigationBar setBackgroundImage:[UIImage new] forBarMetrics:UIBarMetricsDefault];
+
+[self.navigationController.navigationBar setShadowImage:[UIImage new]];
+
+/** 取消透明导航栏 */
+[self.navigationController.navigationBar setBackgroundImage:nil forBarMetrics:UIBarMetricsDefault];
+
+[self.navigationController.navigationBar setShadowImage:nil];</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>44C9D099-B428-4DA6-B700-3F7EF696F54D</string>
+	<string>1927DE39-FA6C-4C65-9469-73D084CA771D</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Objective-C</string>
 	<key>IDECodeSnippetSummary</key>
-	<string>keyboardnotificationregister</string>
+	<string>透明导航栏</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>keyboardNotificationRegister</string>
+	<string>透明导航栏</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

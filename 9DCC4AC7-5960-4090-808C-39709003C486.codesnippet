@@ -3,21 +3,24 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>zs</string>
+	<string>Button_TouchArea</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
-		<string>All</string>
+		<string>CodeBlock</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>/** &lt;#变量注释#&gt; */</string>
+	<string> [&lt;#button#&gt; setFrame:CGRectMake(0.0f, 0.0f, 40.0f, 40.0f)];
+    [&lt;#button#&gt; setImageEdgeInsets:UIEdgeInsetsMake(10.0f, 10.0f, 10.0f, 10.0f)];</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>1F27E15D-5B95-4ECA-80B8-332B09EB8B63</string>
+	<string>9DCC4AC7-5960-4090-808C-39709003C486</string>
 	<key>IDECodeSnippetLanguage</key>
-	<string>Xcode.SourceCodeLanguage.Swift</string>
+	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<key>IDECodeSnippetPlatformFamily</key>
+	<string>iphoneos</string>
 	<key>IDECodeSnippetSummary</key>
-	<string>zs</string>
+	<string>扩大按钮热区</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>comment</string>
+	<string>扩大按钮点击区域</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
