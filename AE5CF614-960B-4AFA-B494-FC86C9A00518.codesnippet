@@ -3,21 +3,21 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>staticconst</string>
+	<string>extern</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>TopLevel</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>static const &lt;#CGFloat#&gt; &lt;#var#&gt;</string>
+	<string>FOUNDATION_EXPORT &lt;#type#&gt; &lt;#*#&gt;const &lt;#varName#&gt;;</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>E864A8E2-1B62-4D8F-B4B4-36844C587B27</string>
+	<string>AE5CF614-960B-4AFA-B494-FC86C9A00518</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Objective-C</string>
 	<key>IDECodeSnippetSummary</key>
-	<string>staticconsst</string>
+	<string>extern const</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>static</string>
+	<string>extern const</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

@@ -3,21 +3,54 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>log</string>
+	<string>switch_custom</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>CodeBlock</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>NSLog(@"&lt;#string#&gt;");</string>
+	<string>switch (&lt;#condition#&gt;) {
+    case &lt;#0#&gt;: {
+        
+    }
+        break;
+    case &lt;#1#&gt;: {
+        
+    }
+        break;
+    case &lt;#2#&gt;: {
+        
+    }
+        break;
+    case &lt;#3#&gt;: {
+        
+    }
+        break;
+    case &lt;#4#&gt;: {
+        
+    }
+        break;
+    case &lt;#5#&gt;: {
+        
+    }
+        break;
+    case &lt;#6#&gt;: {
+        
+    }
+        break;
+       
+    default:
+        break;
+}
+</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>D0736048-7981-4936-AF9E-1AA222BC7A74</string>
+	<string>6EBF2957-6492-4816-9835-57DAAD147492</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Objective-C</string>
 	<key>IDECodeSnippetSummary</key>
-	<string>log</string>
+	<string>switch</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>log</string>
+	<string>switch</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

@@ -3,21 +3,27 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>pra</string>
+	<string>tvcell</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
-		<string>ClassImplementation</string>
+		<string>CodeBlock</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>#pragma mark - &lt;#mark#&gt;</string>
+	<string>NSString *&lt;#identifier#&gt; = @"&lt;#identifier#&gt;";
+&lt;#UITableViewCell#&gt; *&lt;#cell#&gt;= [tableView dequeueReusableCellWithIdentifier:identifier];
+if (!&lt;#cell#&gt;) {
+    &lt;#cell#&gt; = [[&lt;#UITableViewCell#&gt; alloc] initWithStyle: &lt;#UITableViewCellStyleDefault#&gt; reuseIdentifier: &lt;#identifier#&gt;];
+    }</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>AEB94443-BAA8-4F89-A0C6-6C65AC5F651E</string>
+	<string>C09371DD-7144-45FA-B417-255ECFFA118C</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<key>IDECodeSnippetPlatformFamily</key>
+	<string>iphoneos</string>
 	<key>IDECodeSnippetSummary</key>
-	<string>pra</string>
+	<string>UITableViewCell</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>pragma mark</string>
+	<string>UITableViewCell</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

@@ -3,10 +3,10 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>keyboardwillshow</string>
+	<string>keyboardwillhide</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
-		<string>ClassImplementation</string>
+		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
 	<string>- (void)keyboardWillHide:(NSNotification*)notification
@@ -18,8 +18,10 @@
 	<string>2B1E5001-AD5C-4452-9292-7FE650DAC9A1</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<key>IDECodeSnippetPlatformFamily</key>
+	<string>iphoneos</string>
 	<key>IDECodeSnippetSummary</key>
-	<string>kbwh</string>
+	<string>keyboardwillhide</string>
 	<key>IDECodeSnippetTitle</key>
 	<string>keyboardwillhide</string>
 	<key>IDECodeSnippetUserSnippet</key>

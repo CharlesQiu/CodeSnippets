@@ -3,21 +3,21 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>annotation</string>
+	<string>staticconst</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
-		<string>All</string>
+		<string>TopLevel</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>/// &lt;#description#&gt; &lt;#*V1.5.2#&gt;</string>
+	<string>static &lt;#type#&gt; &lt;#*#&gt;const &lt;#varName#&gt; = &lt;#var#&gt;;</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>16405065-2121-42DF-8000-E092790BE4DC</string>
+	<string>02BE803C-FEB4-41FB-969E-C5127F2F8D52</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Objective-C</string>
 	<key>IDECodeSnippetSummary</key>
-	<string>简单注释</string>
+	<string>static const</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>annotation</string>
+	<string>static const</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
