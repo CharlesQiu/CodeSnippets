@@ -3,23 +3,24 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>typedef</string>
+	<string>method</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
-		<string>TopLevel</string>
+		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>typedef NS_ENUM(NSInteger, &lt;#type#&gt;) {
-    &lt;#code#&gt;
-};</string>
+	<string>/**
+ * &lt;#Description#&gt;
+ */
+- (&lt;#class#&gt;)&lt;#metod name#&gt;</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>52E0BAF1-4873-4EAD-9047-06C64A9C4D3E</string>
+	<string>8B24B9B6-3BC5-4A53-B8AE-98E074E83D98</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Objective-C</string>
 	<key>IDECodeSnippetSummary</key>
-	<string>typedef</string>
+	<string>method</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>typedef</string>
+	<string>method</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

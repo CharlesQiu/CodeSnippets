@@ -10,7 +10,7 @@
 	</array>
 	<key>IDECodeSnippetContents</key>
 	<string>if (!&lt;#object#&gt;) {
-    &lt;#init methot#&gt;
+    
 }
 return &lt;#object#&gt;;</string>
 	<key>IDECodeSnippetIdentifier</key>

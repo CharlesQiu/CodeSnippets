@@ -2,20 +2,22 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>document(///)</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
-		<string>TopLevel</string>
+		<string>ClassInterfaceMethods</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>typedef NS_ENUM(NSInteger, ZMCategoryLabelListType) {
-};
-</string>
+	<string>/// </string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>CC0DE2FF-02E0-4A71-9987-56D31F74DA5D</string>
+	<string>DFD3C8A6-DC6E-458C-943E-DF0FF90E0F38</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Objective-C-Plus-Plus</string>
+	<key>IDECodeSnippetSummary</key>
+	<string>document(///)</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>typedef</string>
+	<string>document(///)</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

@@ -6,10 +6,10 @@
 	<string>import&lt;&gt;</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
-		<string>Preprocessor</string>
+		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>#import &lt;&lt;#Masonry.h#&gt;&gt;</string>
+	<string>#import &lt;&lt;#file#&gt;&gt;</string>
 	<key>IDECodeSnippetIdentifier</key>
 	<string>3CF3726E-BA46-4792-8834-847E366ABDBB</string>
 	<key>IDECodeSnippetLanguage</key>

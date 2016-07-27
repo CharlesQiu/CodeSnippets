@@ -2,25 +2,29 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>yymodelCustomPropertyMapper</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
-		<string>CodeBlock</string>
+		<string>ClassImplementation</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>        if (!response.success) {
-            [ProgressManage showLoading:response.message];
-            return;
-        }
-</string>
+	<string>+ (NSDictionary *)modelCustomPropertyMapper {
+    return @{
+             @"&lt;#ID#&gt;" : @"&lt;#id#&gt;"
+             };
+}</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>6AD940A9-2FE5-4B65-AC3B-766F85838996</string>
+	<string>C18835C8-B994-4333-B128-B8BB16855B59</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<key>IDECodeSnippetSummary</key>
+	<string>yymodelCustomPropertyMapper</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>My Code Snippet</string>
+	<string>yymodelCustomPropertyMapper</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
-	<integer>0</integer>
+	<integer>2</integer>
 </dict>
 </plist>

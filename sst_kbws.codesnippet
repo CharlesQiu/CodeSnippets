@@ -9,18 +9,19 @@
 		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>- (void)keyboardWillShow:(NSNotification*)notification
-{
+	<string>- (void)keyboardWillShow:(NSNotification *)notification {
     CGSize kbSize = [notification.userInfo[UIKeyboardFrameEndUserInfoKey] CGRectValue].size;
     
-    //we need to use this old animaiton method to setAnimationCurve
-    [UIView beginAnimations:nil context:NULL];
-    [UIView setAnimationDuration:[notification.userInfo[UIKeyboardAnimationDurationUserInfoKey] doubleValue]];
-    [UIView setAnimationCurve:[notification.userInfo[UIKeyboardAnimationCurveUserInfoKey] unsignedIntegerValue]];
-    [UIView setAnimationBeginsFromCurrentState:YES];
-    &lt;#action#&gt;
-    
-    [UIView commitAnimations];
+    @weakify(self);
+    [UIView animateWithDuration:0.33 delay:0.0 options:UIViewAnimationOptionCurveEaseInOut animations:^{
+        @strongify(self);
+
+        [self.view layoutIfNeeded];
+        
+    } completion:^(BOOL finished) {
+
+        
+    }];
 }
 </string>
 	<key>IDECodeSnippetIdentifier</key>

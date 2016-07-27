@@ -3,21 +3,26 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>property(normal)</string>
+	<string>yymodelPropertyGenericClass</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
-		<string>All</string>
+		<string>ClassImplementation</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>@property (nonatomic, &lt;#copy#&gt;) &lt;#NSString#&gt; *&lt;#name#&gt;;</string>
+	<string>+ (NSDictionary *)modelContainerPropertyGenericClass {
+    return @{
+             @"&lt;#contacts#&gt;" : [&lt;#DDFCustomerContactsModel#&gt; class],
+             @"&lt;#fansRequests#&gt;" : [&lt;#DDFCustomerFansModel#&gt; class]
+             };
+}</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>EFFCA349-F8EA-40B1-8956-56F5926A9487</string>
+	<string>5D5A2D66-A665-4542-BF38-F45D3F884AD8</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Objective-C</string>
 	<key>IDECodeSnippetSummary</key>
-	<string>property(normal)</string>
+	<string>yymodelPropertyGenericClass</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>property(normal)</string>
+	<string>yymodelPropertyGenericClass</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

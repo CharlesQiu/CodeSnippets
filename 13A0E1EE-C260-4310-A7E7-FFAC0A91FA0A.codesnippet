@@ -3,21 +3,21 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>method</string>
+	<string>document(/** */)</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>- (&lt;#class#&gt;)&lt;#metod name#&gt; </string>
+	<string>/** &lt;#documentation#&gt; */</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>C1FA78EB-A744-44EA-84AC-5C77D4B9D08E</string>
+	<string>13A0E1EE-C260-4310-A7E7-FFAC0A91FA0A</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Objective-C</string>
 	<key>IDECodeSnippetSummary</key>
-	<string>method</string>
+	<string>document(/** */)</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>method</string>
+	<string>document(/** */)</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
