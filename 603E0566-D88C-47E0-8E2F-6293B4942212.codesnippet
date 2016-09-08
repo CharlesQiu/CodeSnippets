@@ -3,24 +3,24 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>property_documentation</string>
+	<string>error_response</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
-		<string>All</string>
+		<string>CodeExpression</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>/** &lt;#documentation#&gt; */
-@property (nonatomic, &lt;#copy#&gt;) &lt;#NSString#&gt; &lt;#name#&gt;;</string>
+	<string>    if !response.success {
+    DDFProgressManage.showBriefAlert(response.message)
+    return
+    }</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>46168A47-4625-4DDB-9BC9-A49316017408</string>
+	<string>603E0566-D88C-47E0-8E2F-6293B4942212</string>
 	<key>IDECodeSnippetLanguage</key>
-	<string>Xcode.SourceCodeLanguage.Objective-C</string>
-	<key>IDECodeSnippetPlatformFamily</key>
-	<string>iphoneos</string>
+	<string>Xcode.SourceCodeLanguage.Swift</string>
 	<key>IDECodeSnippetSummary</key>
-	<string>property_documentation</string>
+	<string>error_response</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>property_documentation</string>
+	<string>error_response</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

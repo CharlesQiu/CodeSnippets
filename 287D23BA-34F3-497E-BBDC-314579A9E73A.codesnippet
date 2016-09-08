@@ -3,24 +3,21 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>property_documentation</string>
+	<string>property-normal</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>/** &lt;#documentation#&gt; */
-@property (nonatomic, &lt;#copy#&gt;) &lt;#NSString#&gt; &lt;#name#&gt;;</string>
+	<string>@property (nonatomic, &lt;#copy#&gt;) &lt;#NSString#&gt; &lt;#name#&gt;;</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>46168A47-4625-4DDB-9BC9-A49316017408</string>
+	<string>287D23BA-34F3-497E-BBDC-314579A9E73A</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Objective-C</string>
-	<key>IDECodeSnippetPlatformFamily</key>
-	<string>iphoneos</string>
 	<key>IDECodeSnippetSummary</key>
-	<string>property_documentation</string>
+	<string>property-normal</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>property_documentation</string>
+	<string>property-normal</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

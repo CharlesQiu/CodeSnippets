@@ -3,24 +3,24 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>property_documentation</string>
+	<string>configureCell-配置cell</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
-		<string>All</string>
+		<string>ClassInterfaceMethods</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>/** &lt;#documentation#&gt; */
-@property (nonatomic, &lt;#copy#&gt;) &lt;#NSString#&gt; &lt;#name#&gt;;</string>
+	<string>/**
+ * 配置cell
+ */
+- (void)configureCell:(&lt;#modelClass#&gt; *)model;</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>46168A47-4625-4DDB-9BC9-A49316017408</string>
+	<string>2FED3C33-9040-4584-BBEB-A6A098E511D7</string>
 	<key>IDECodeSnippetLanguage</key>
-	<string>Xcode.SourceCodeLanguage.Objective-C</string>
-	<key>IDECodeSnippetPlatformFamily</key>
-	<string>iphoneos</string>
+	<string>Xcode.SourceCodeLanguage.Objective-C-Plus-Plus</string>
 	<key>IDECodeSnippetSummary</key>
-	<string>property_documentation</string>
+	<string>configureCell-配置cell</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>property_documentation</string>
+	<string>configureCell-配置cell</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
