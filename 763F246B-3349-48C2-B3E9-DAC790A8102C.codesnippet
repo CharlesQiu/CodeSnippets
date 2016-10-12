@@ -3,21 +3,21 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>MARK: View Life Cycle</string>
+	<string>FIXME: FIXME</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
-		<string>ClassImplementation</string>
+		<string>CodeBlock</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>// MARK: - View Life Cycle</string>
+	<string>// FIXME: &lt;#FIXME#&gt;</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>DF2884CB-FEF6-4BF5-AD8A-9BB8C037E904</string>
+	<string>763F246B-3349-48C2-B3E9-DAC790A8102C</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Swift</string>
 	<key>IDECodeSnippetSummary</key>
-	<string>MARK: View Life Cycle</string>
+	<string>FIXME: FIXME</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>MARK: View Life Cycle</string>
+	<string>FIXME: FIXME</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

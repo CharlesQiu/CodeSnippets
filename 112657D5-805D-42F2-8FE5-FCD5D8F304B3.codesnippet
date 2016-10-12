@@ -9,7 +9,7 @@
 		<string>ClassImplementation</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>// MARK: Properties</string>
+	<string>// MARK: - Properties</string>
 	<key>IDECodeSnippetIdentifier</key>
 	<string>112657D5-805D-42F2-8FE5-FCD5D8F304B3</string>
 	<key>IDECodeSnippetLanguage</key>

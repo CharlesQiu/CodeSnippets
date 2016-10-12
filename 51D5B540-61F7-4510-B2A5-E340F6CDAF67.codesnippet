@@ -3,21 +3,21 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>MARK: View Life Cycle</string>
+	<string>TODO: TODO</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
-		<string>ClassImplementation</string>
+		<string>CodeBlock</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>// MARK: - View Life Cycle</string>
+	<string>// TODO: &lt;#TODO#&gt;</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>DF2884CB-FEF6-4BF5-AD8A-9BB8C037E904</string>
+	<string>51D5B540-61F7-4510-B2A5-E340F6CDAF67</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Swift</string>
 	<key>IDECodeSnippetSummary</key>
-	<string>MARK: View Life Cycle</string>
+	<string>TODO: TODO</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>MARK: View Life Cycle</string>
+	<string>TODO: TODO</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
