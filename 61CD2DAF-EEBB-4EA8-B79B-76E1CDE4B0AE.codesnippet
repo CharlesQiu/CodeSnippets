@@ -6,10 +6,12 @@
 	<string>let - name type</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
+		<string>CodeBlock</string>
 		<string>ClassImplementation</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>let &lt;#name#&gt;: &lt;#type#&gt;</string>
+	<string>let &lt;#name#&gt;: &lt;#type#&gt;
+</string>
 	<key>IDECodeSnippetIdentifier</key>
 	<string>61CD2DAF-EEBB-4EA8-B79B-76E1CDE4B0AE</string>
 	<key>IDECodeSnippetLanguage</key>
@@ -21,6 +23,6 @@
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
-	<integer>0</integer>
+	<integer>2</integer>
 </dict>
 </plist>

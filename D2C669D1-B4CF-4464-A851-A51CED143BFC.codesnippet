@@ -3,24 +3,29 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>MARK: Constants</string>
+	<string>#if - DEBUG else</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
-		<string>ClassImplementation</string>
+		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>// MARK: - Constants</string>
+	<string>#if DEBUG
+&lt;#if_code#&gt;
+#else
+&lt;#else_code#&gt;
+#endif
+</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>F924ED7B-7AB9-4F54-B4FE-642267497788</string>
+	<string>D2C669D1-B4CF-4464-A851-A51CED143BFC</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Swift</string>
 	<key>IDECodeSnippetSummary</key>
-	<string>MARK: Constants</string>
+	<string>#if - DEBUG else</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>MARK: Constants</string>
+	<string>#if - DEBUG else</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
-	<integer>2</integer>
+	<integer>0</integer>
 </dict>
 </plist>
