@@ -3,24 +3,24 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>#if - DEBUG</string>
+	<string>dispatch_after</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
-		<string>All</string>
+		<string>CodeBlock</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>#if DEBUG
-&lt;#code#&gt;
-#endif
+	<string>DispatchQueue.main.asyncAfter(deadline: DispatchTime.now() + &lt;#time#&gt;) {
+    &lt;#code#&gt;
+}
 </string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>910A3D5F-5C0D-4AB5-87BF-55A064076E09</string>
+	<string>D150E7B2-72E1-46AA-AC51-156D61E7FA22</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Swift</string>
 	<key>IDECodeSnippetSummary</key>
-	<string>#if - DEBUG</string>
+	<string>dispatch_after</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>#if - DEBUG</string>
+	<string>dispatch_after</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

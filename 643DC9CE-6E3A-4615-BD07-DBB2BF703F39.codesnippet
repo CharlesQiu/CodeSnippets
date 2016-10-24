@@ -3,24 +3,26 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>#if - DEBUG</string>
+	<string>qhs - lazy private</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
-		<string>All</string>
+		<string>ClassImplementation</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>#if DEBUG
-&lt;#code#&gt;
-#endif
+	<string>private lazy var &lt;#name#&gt;: &lt;#type#&gt; = {
+let &lt;#tempName#&gt; = &lt;#init#&gt;
+self.view.addSubview(&lt;#tempName#&gt;)
+    return &lt;#tempName#&gt;
+}()
 </string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>910A3D5F-5C0D-4AB5-87BF-55A064076E09</string>
+	<string>643DC9CE-6E3A-4615-BD07-DBB2BF703F39</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Swift</string>
 	<key>IDECodeSnippetSummary</key>
-	<string>#if - DEBUG</string>
+	<string>qhs - lazy private</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>#if - DEBUG</string>
+	<string>qhs - lazy private</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
