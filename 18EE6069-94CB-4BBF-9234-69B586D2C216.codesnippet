@@ -3,24 +3,27 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>error_response</string>
+	<string>struct - viewModel</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
-		<string>CodeExpression</string>
+		<string>TopLevel</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>    if !response.success {
-    DDFProgressManage.showBriefAlert(response.message)
-    return
-    }</string>
+	<string>struct &lt;#struct#&gt; {
+    
+
+    init(response: HGYHttpResponse) {
+    }
+}
+</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>603E0566-D88C-47E0-8E2F-6293B4942212</string>
+	<string>18EE6069-94CB-4BBF-9234-69B586D2C216</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Swift</string>
 	<key>IDECodeSnippetSummary</key>
-	<string>error_response</string>
+	<string>struct - viewModel</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>error_response</string>
+	<string>struct - viewModel</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

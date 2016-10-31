@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>func - data controller request</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>ClassImplementation</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>    /// &lt;#comment#&gt; post &lt;#API#&gt;
+    func request&lt;#API#&gt;(&lt;#para#&gt;, success: @escaping (&lt;#return#&gt;) -&gt; ()) {
+        let para = ["&lt;#key#&gt;": &lt;#value#&gt;]
+        MBProgressHUD.hudActivity()
+        HGYHttpService.requestPost(urlString: &lt;#api#&gt;, params:para ) { (response: HGYHttpResponse) in
+            MBProgressHUD.remove()
+            if response.service_code != HGY_Resp_Code_Suc {
+                MBProgressHUD.hudTextCenter(text: response.service_msg!)
+                return
+            }
+            return success(&lt;#return#&gt;)
+        }
+    }
+</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>265E7BBB-513F-44F5-A18E-F900F232AF39</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Swift</string>
+	<key>IDECodeSnippetSummary</key>
+	<string>func - data controller request</string>
+	<key>IDECodeSnippetTitle</key>
+	<string>func - data controller request</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>2</integer>
+</dict>
+</plist>

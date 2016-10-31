@@ -3,25 +3,24 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>lazy private</string>
+	<string>guard - custom</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
-		<string>ClassImplementation</string>
+		<string>CodeExpression</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>private lazy var &lt;#name#&gt;: &lt;#type#&gt; = {
-let &lt;#tempName#&gt; = &lt;#init#&gt;
-    return &lt;#tempName#&gt;
-}()
+	<string>                guard &lt;#condition#&gt; else {
+                    &lt;#statements#&gt;
+                }
 </string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>643DC9CE-6E3A-4615-BD07-DBB2BF703F39</string>
+	<string>045F802B-3698-44EE-9C2F-1785E539B1E3</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Swift</string>
 	<key>IDECodeSnippetSummary</key>
-	<string>lazy private</string>
+	<string>guard - custom</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>lazy private</string>
+	<string>guard - custom</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
