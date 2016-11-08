@@ -9,7 +9,7 @@
 		<string>ClassImplementation</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>    // MARK: - Lazy Load</string>
+	<string>// MARK: - Lazy Load</string>
 	<key>IDECodeSnippetIdentifier</key>
 	<string>791B7564-CC0A-4EC7-9DFA-E1777ADFB8F0</string>
 	<key>IDECodeSnippetLanguage</key>

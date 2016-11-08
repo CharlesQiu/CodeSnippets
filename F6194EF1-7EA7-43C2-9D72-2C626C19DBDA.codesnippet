@@ -3,25 +3,29 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>block</string>
+	<string>lazy load - table view</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>ClassImplementation</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>    var &lt;#name#&gt;: (() -&gt; ())?
-</string>
+	<string>private lazy var tableView: UITableView = {
+    let table = UITableView.init(frame: .zero, style: .plain)
+    table.register(&lt;#cell type#&gt;.self, forCellReuseIdentifier: &lt;#cell type#&gt;.className)
+    table.delegate = self
+    table.dataSource = self
+    table.rowHeight = HGYUISizeConst.heightCell_55
+    return table
+}()</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>68B7992F-364E-409D-8DDC-A5CF724F3F2C</string>
+	<string>F6194EF1-7EA7-43C2-9D72-2C626C19DBDA</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Swift</string>
-	<key>IDECodeSnippetSummary</key>
-	<string>block</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>block</string>
+	<string>懒加载 （tableview）</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
-	<integer>2</integer>
+	<integer>0</integer>
 </dict>
 </plist>

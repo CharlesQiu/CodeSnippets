@@ -9,8 +9,7 @@
 		<string>ClassImplementation</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>    private(set) var &lt;#name#&gt;: &lt;#type#&gt;
-</string>
+	<string>private(set) var &lt;#name#&gt;: &lt;#type#&gt;</string>
 	<key>IDECodeSnippetIdentifier</key>
 	<string>8CCA0F50-DEFE-4704-B5D8-AB6FCE61D9D9</string>
 	<key>IDECodeSnippetLanguage</key>

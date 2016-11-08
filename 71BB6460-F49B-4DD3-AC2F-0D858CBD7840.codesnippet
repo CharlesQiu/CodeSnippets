@@ -11,7 +11,7 @@
 	<key>IDECodeSnippetContents</key>
 	<string>    if response.error != nil {
     MBProgressHUD.hudTextBottom(text: response.service_msg!)
-        return;
+        return
     }
 </string>
 	<key>IDECodeSnippetIdentifier</key>

@@ -3,25 +3,25 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>block</string>
+	<string>func - setup views</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>ClassImplementation</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>    var &lt;#name#&gt;: (() -&gt; ())?
-</string>
+	<string>// MARK: - Setup Views
+override func setupViews() {
+
+}</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>68B7992F-364E-409D-8DDC-A5CF724F3F2C</string>
+	<string>CE380E5A-F7D5-4E1D-9A93-CF97A9303F65</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Swift</string>
-	<key>IDECodeSnippetSummary</key>
-	<string>block</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>block</string>
+	<string>设置视图（view）</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
-	<integer>2</integer>
+	<integer>0</integer>
 </dict>
 </plist>

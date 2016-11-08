@@ -3,26 +3,24 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>func-void return</string>
+	<string>func - upate view</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>ClassImplementation</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>func &lt;#name#&gt;(&lt;#parameters#&gt;) {
-    &lt;#function body#&gt;
+	<string>private func updateView(vm: &lt;#view model type#&gt;) {
+
 }</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>A7B153B8-6DEE-4409-8A85-3D8C9B58C7FD</string>
+	<string>B86F6752-291B-444F-8E7D-7FD01234D9CE</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Swift</string>
-	<key>IDECodeSnippetSummary</key>
-	<string>func-void return</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>func-void return</string>
+	<string>更新 view</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
-	<integer>2</integer>
+	<integer>0</integer>
 </dict>
 </plist>

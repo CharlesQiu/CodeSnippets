@@ -3,25 +3,25 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>block</string>
+	<string>lazy load - view controller</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>ClassImplementation</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>    var &lt;#name#&gt;: (() -&gt; ())?
-</string>
+	<string>private lazy var &lt;#view name#&gt;: &lt;#view type#&gt; = {
+    let lazyView = &lt;#view type#&gt;()
+    return lazyView
+}()</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>68B7992F-364E-409D-8DDC-A5CF724F3F2C</string>
+	<string>22CE4EDC-E7AE-4E40-A2FB-9D93119F4A2E</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Swift</string>
-	<key>IDECodeSnippetSummary</key>
-	<string>block</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>block</string>
+	<string>懒加载（view controller 中的 view）</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
-	<integer>2</integer>
+	<integer>0</integer>
 </dict>
 </plist>

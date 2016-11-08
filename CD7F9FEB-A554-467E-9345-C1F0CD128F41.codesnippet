@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>tableview - delegate &amp; datasource</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>ClassImplementation</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>// MARK: - TableView Datasource
+@available(iOS 2.0, *)
+public func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -&gt; Int {
+    return self.viewModel.arrCell.count
+}
+
+@available(iOS 2.0, *)
+public func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -&gt; UITableViewCell {
+    let cell: &lt;#cell type#&gt; = tableView.dequeueReusableCell(withIdentifier: &lt;#cell type#&gt;.className) as! &lt;#cell type#&gt;
+    cell.cellViewModel = self.viewModel.arrCell[indexPath.row]
+    return cell
+}
+
+func tableView(_ tableView: UITableView, heightForHeaderInSection section: Int) -&gt; CGFloat {
+    return HGYUISizeConst.heightSection_55
+}
+
+func tableView(_ tableView: UITableView, viewForHeaderInSection section: Int) -&gt; UIView? {
+    return viewSection
+}
+
+// MARK: - UITableViewDelegate
+func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+    tableView.deselectRow(at: indexPath, animated: true)
+}</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>CD7F9FEB-A554-467E-9345-C1F0CD128F41</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Swift</string>
+	<key>IDECodeSnippetTitle</key>
+	<string>列表</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>0</integer>
+</dict>
+</plist>
