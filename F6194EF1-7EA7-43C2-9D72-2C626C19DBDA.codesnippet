@@ -14,7 +14,7 @@
     table.register(&lt;#cell type#&gt;.self, forCellReuseIdentifier: &lt;#cell type#&gt;.className)
     table.delegate = self
     table.dataSource = self
-    table.rowHeight = HGYUISizeConst.heightCell_55
+    table.rowHeight = HGYSize.heightCell_55
     return table
 }()</string>
 	<key>IDECodeSnippetIdentifier</key>
@@ -26,6 +26,6 @@
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
-	<integer>0</integer>
+	<integer>2</integer>
 </dict>
 </plist>

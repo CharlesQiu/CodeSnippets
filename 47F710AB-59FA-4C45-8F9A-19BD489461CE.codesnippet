@@ -9,10 +9,9 @@
 		<string>CodeBlock</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>        if (!response.success) {
-            [DDFProgressManage showBriefAlert:response.message];
-            return;
-        }</string>
+	<string>if (!resp.error) {
+    [HGYHUDTools showHUDWithText:resp.service_msg];
+}</string>
 	<key>IDECodeSnippetIdentifier</key>
 	<string>47F710AB-59FA-4C45-8F9A-19BD489461CE</string>
 	<key>IDECodeSnippetLanguage</key>

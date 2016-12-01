@@ -3,26 +3,25 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>cell - configure</string>
+	<string>func - update view model</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>ClassImplementation</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>var cellViewModel: &lt;#cell view model type#&gt;? {
-    willSet {
-        textLabel?.text = newValue?.title
-    }
+	<string>func updateViewModel(model: &lt;#model type#&gt;) -&gt; &lt;#self type#&gt; {
+
+    return self
 }</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>13D2047E-57F2-46FD-B79F-AB2843836627</string>
+	<string>807D0A1A-F9EA-4FF0-8EB7-5375A8535C6F</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Swift</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>设置cell</string>
+	<string>func - update view model</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
-	<integer>0</integer>
+	<integer>2</integer>
 </dict>
 </plist>

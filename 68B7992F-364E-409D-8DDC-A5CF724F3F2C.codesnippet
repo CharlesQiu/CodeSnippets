@@ -9,8 +9,7 @@
 		<string>ClassImplementation</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>    var &lt;#name#&gt;: (() -&gt; ())?
-</string>
+	<string>var &lt;#name#&gt;: (() -&gt; ())?</string>
 	<key>IDECodeSnippetIdentifier</key>
 	<string>68B7992F-364E-409D-8DDC-A5CF724F3F2C</string>
 	<key>IDECodeSnippetLanguage</key>

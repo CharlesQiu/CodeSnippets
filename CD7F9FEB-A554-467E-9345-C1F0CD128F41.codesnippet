@@ -23,7 +23,7 @@ public func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPat
 }
 
 func tableView(_ tableView: UITableView, heightForHeaderInSection section: Int) -&gt; CGFloat {
-    return HGYUISizeConst.heightSection_55
+    return HGYSize.heightSection_55
 }
 
 func tableView(_ tableView: UITableView, viewForHeaderInSection section: Int) -&gt; UIView? {
@@ -43,6 +43,6 @@ func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
-	<integer>0</integer>
+	<integer>2</integer>
 </dict>
 </plist>

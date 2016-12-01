@@ -3,25 +3,21 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>func - add constraints</string>
+	<string>map - key</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
-		<string>ClassImplementation</string>
+		<string>CodeBlock</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>// MARK: - Add Constraints
-override func addConstraints() {
-    view.addSubview(&lt;#view name#&gt;)
-    &lt;#view name#&gt;.snp.makeConstraints { (make) in
-        make.edges.equalTo(view)
-    }
-}</string>
+	<string>&lt;#key#&gt; &lt;- map["&lt;#key#&gt;"]</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>8F875D98-C17D-4886-80CA-BD366F0BA28A</string>
+	<string>30D19CAF-48D0-49F7-A12E-2593A4B30779</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Swift</string>
+	<key>IDECodeSnippetSummary</key>
+	<string>map - key</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>增加约束（view controller）</string>
+	<string>map - key</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

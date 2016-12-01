@@ -3,13 +3,14 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>func - upate view</string>
+	<string>func - update view</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>ClassImplementation</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>private func updateView(vm: &lt;#view model type#&gt;) {
+	<string>// MARK: - Update View
+private func updateView(model: &lt;#model type#&gt;) {
 
 }</string>
 	<key>IDECodeSnippetIdentifier</key>
@@ -17,10 +18,10 @@
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Swift</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>更新 view</string>
+	<string>func - update view (in VC)</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
-	<integer>0</integer>
+	<integer>2</integer>
 </dict>
 </plist>
