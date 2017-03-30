@@ -3,14 +3,14 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>func - data controller request</string>
+	<string>cs_dc_func_request</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>ClassImplementation</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>    /// &lt;#comment#&gt; post &lt;#API#&gt;
-    func request&lt;#API#&gt;(&lt;#para#&gt;, success: @escaping (&lt;#return#&gt;) -&gt; ()) {
+	<string>/// &lt;#comment#&gt;
+func request&lt;#API#&gt;(&lt;#para#&gt;, success: @escaping (&lt;#return#&gt;) -&gt; ()) {
         let para = ["&lt;#key#&gt;": &lt;#value#&gt;]
         MBProgressHUD.hudActivity()
         HGYHttpService.requestPost(urlString: &lt;#api#&gt;, params:para ) { (response: HGYHttpResponse) in
@@ -19,6 +19,8 @@
                 MBProgressHUD.hudTextCenter(text: response.service_msg!)
                 return
             }
+            let model = Mapper&lt;HGYHouseVacantListModel&gt;().map(JSONObject: response.originObj)
+
             return success(&lt;#return#&gt;)
         }
     }
@@ -28,9 +30,9 @@
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Swift</string>
 	<key>IDECodeSnippetSummary</key>
-	<string>func - data controller request</string>
+	<string>cs_dc_func_request</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>func - data controller request</string>
+	<string>cs_dc_func_request</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
