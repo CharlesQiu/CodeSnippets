@@ -3,24 +3,27 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>document(/**&lt;*/)</string>
+	<string>cs_comment</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
-		<string>All</string>
+		<string>ClassImplementation</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>/**&lt; &lt;#comment#&gt; */</string>
+	<string>    /**
+     * &lt;#comment#&gt;
+     */
+</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>35299D30-FCD7-4A62-A7AC-7D02DAF90CC3</string>
+	<string>A82B7204-2449-4B69-A3EE-A5ADF2538692</string>
 	<key>IDECodeSnippetLanguage</key>
-	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<string>Xcode.SourceCodeLanguage.Swift</string>
 	<key>IDECodeSnippetSummary</key>
-	<string>document(/**&lt;*/)</string>
+	<string>cs_comment</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>document(/**&lt;*/)</string>
+	<string>cs_comment(/*  换行 */)</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
-	<integer>2</integer>
+	<integer>0</integer>
 </dict>
 </plist>
