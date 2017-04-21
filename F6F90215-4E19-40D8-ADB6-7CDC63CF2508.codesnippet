@@ -3,21 +3,21 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>cs_comment</string>
+	<string>cs_log_debug</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>/// &lt;#comment#&gt;</string>
+	<string>HGYLogDebug(message: &lt;#T##T#&gt;)</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>40A6A218-C2FB-4D84-B319-288435ED8F50</string>
+	<string>F6F90215-4E19-40D8-ADB6-7CDC63CF2508</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Swift</string>
 	<key>IDECodeSnippetSummary</key>
-	<string>cs_comment</string>
+	<string>cs_log_debug</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>cs_comment(/// )</string>
+	<string>cs_log_debug</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

@@ -3,21 +3,27 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>cs_comment</string>
+	<string>cs_alert</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
-		<string>All</string>
+		<string>CodeBlock</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>/// &lt;#comment#&gt;</string>
+	<string>HGYAlertViewController.init(title: "提示", message: &lt;#message#&gt;, isOkButtonLeft: true, okButtonText: "取消", cancelButtonText: "删除", okButtonHandler: { (alert) in
+alert.dismissAlertView()
+}, cancelButtonHandler: { (alert) in
+alert.dismissAlertView({
+&lt;#code#&gt;
+})
+}).show()</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>40A6A218-C2FB-4D84-B319-288435ED8F50</string>
+	<string>1B5A5462-5FAD-4B31-8847-6CA49B4377C0</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Swift</string>
 	<key>IDECodeSnippetSummary</key>
-	<string>cs_comment</string>
+	<string>cs_alert</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>cs_comment(/// )</string>
+	<string>cs_alert</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

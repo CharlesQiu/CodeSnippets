@@ -6,11 +6,10 @@
 	<string>cs_comment</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
-		<string>ClassImplementation</string>
+		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>    /**&lt; &lt;#comment#&gt; */
-</string>
+	<string>/**&lt; &lt;#comment#&gt; */</string>
 	<key>IDECodeSnippetIdentifier</key>
 	<string>0A132913-A70B-4E07-AD70-8B95483B6DB0</string>
 	<key>IDECodeSnippetLanguage</key>
@@ -22,6 +21,6 @@
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
-	<integer>0</integer>
+	<integer>2</integer>
 </dict>
 </plist>

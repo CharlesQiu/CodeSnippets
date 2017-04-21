@@ -3,13 +3,16 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>cs_class model map</string>
+	<string>cs_class_model_map</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>ClassImplementation</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>    // MARK: - ObjectMapper
+	<string>    override init() {
+        super.init()
+    }
+
     required init?(map: Map) {
         super.init(map: map)
     }
@@ -25,10 +28,10 @@
 	<key>IDECodeSnippetSummary</key>
 	<string>cs_class model map</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>cs_class model map</string>
+	<string>cs_class_model_map</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
-	<integer>0</integer>
+	<integer>2</integer>
 </dict>
 </plist>
