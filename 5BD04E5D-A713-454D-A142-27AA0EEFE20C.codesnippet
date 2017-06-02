@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>cs_textfield_didchange</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>ClassImplementation</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>    tf.addTarget(self, action: #selector(textFieldDidChange), for: .editingChanged)
+    func textFieldDidChange(_ textField: UITextField) {
+        if textField == self.tf {
+            HGYLog.debug(textField.text)
+        }
+    }
+</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>5BD04E5D-A713-454D-A142-27AA0EEFE20C</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Swift</string>
+	<key>IDECodeSnippetSummary</key>
+	<string>cs_textfield_didchange</string>
+	<key>IDECodeSnippetTitle</key>
+	<string>cs_textfield_didchange</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>2</integer>
+</dict>
+</plist>
