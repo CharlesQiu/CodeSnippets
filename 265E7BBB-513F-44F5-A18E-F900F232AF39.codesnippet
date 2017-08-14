@@ -3,25 +3,23 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>cs_dc_func_request</string>
+	<string>func_dc_request</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>ClassImplementation</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>/// &lt;#comment#&gt;
-func request&lt;#API#&gt;(&lt;#para#&gt;, success: @escaping (&lt;#return#&gt;) -&gt; ()) {
-        let para = ["&lt;#key#&gt;": &lt;#value#&gt;]
-        MBProgressHUD.hudActivity()
-        HGYHttpService.requestPost(urlString: &lt;#api#&gt;, params:para ) { (response: HGYHttpResponse) in
-            MBProgressHUD.remove()
-            if response.service_code != HGY_Resp_Code_Suc {
-                MBProgressHUD.hudTextCenter(text: response.service_msg!)
-                return
+	<string>    // MARK: - &lt;#mark#&gt;
+    func req&lt;#request#&gt;(_ paras: Parameters, _ response: @escaping BLKBool) {
+        Request(type: HGYAPIType.&lt;#user#&gt;(type: &lt;#type#&gt;, paras: paras)) { (resp) in
+            switch resp.resp {
+            case .succ(type: let msg):
+                Toast.show(type: .success(msg))
+                response(true)
+            case .error(let err):
+                Toast.show(type: .error(err.message()))
+                response(false)
             }
-            let model = Mapper&lt;HGYHouseVacantListModel&gt;().map(JSONObject: response.originObj)
-
-            return success(&lt;#return#&gt;)
         }
     }
 </string>
@@ -30,9 +28,9 @@ func request&lt;#API#&gt;(&lt;#para#&gt;, success: @escaping (&lt;#return#&gt;) 
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Swift</string>
 	<key>IDECodeSnippetSummary</key>
-	<string>cs_dc_func_request</string>
+	<string>func_dc_request</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>cs_dc_func_request</string>
+	<string>func_dc_request</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

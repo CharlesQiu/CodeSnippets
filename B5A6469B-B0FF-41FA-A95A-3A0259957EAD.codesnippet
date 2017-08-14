@@ -3,21 +3,26 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>guard - custom</string>
+	<string>cs_setup_views</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
-		<string>CodeExpression</string>
+		<string>ClassImplementation</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>guard &lt;#condition#&gt; else { return }</string>
+	<string>    // MARK: - Setup Views
+    override func setupViews() {
+        super.setupViews()
+
+    }
+</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>045F802B-3698-44EE-9C2F-1785E539B1E3</string>
+	<string>B5A6469B-B0FF-41FA-A95A-3A0259957EAD</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Swift</string>
 	<key>IDECodeSnippetSummary</key>
-	<string>guard - custom</string>
+	<string>cs_setup_views</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>guard - custom</string>
+	<string>cs_setup_views</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

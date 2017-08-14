@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>func - none return</string>
+	<string>func_none_return</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>ClassImplementation</string>
@@ -19,7 +19,7 @@
 	<key>IDECodeSnippetSummary</key>
 	<string>func none return</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>无返回值函数</string>
+	<string>func none return</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

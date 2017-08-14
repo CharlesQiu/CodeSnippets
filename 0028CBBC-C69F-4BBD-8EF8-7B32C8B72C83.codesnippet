@@ -3,21 +3,26 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>guard - custom</string>
+	<string>cs_init_datas</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
-		<string>CodeExpression</string>
+		<string>ClassImplementation</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>guard &lt;#condition#&gt; else { return }</string>
+	<string>    // MARK: - Initial Datas 
+    override func initDatas() {
+        super.initDatas()
+
+    }
+</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>045F802B-3698-44EE-9C2F-1785E539B1E3</string>
+	<string>0028CBBC-C69F-4BBD-8EF8-7B32C8B72C83</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Swift</string>
 	<key>IDECodeSnippetSummary</key>
-	<string>guard - custom</string>
+	<string>cs_init_datas</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>guard - custom</string>
+	<string>cs_init_datas</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

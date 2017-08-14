@@ -2,22 +2,21 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
-	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>guard - custom</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>CodeExpression</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>guard &lt;#condition#&gt; else { return }</string>
+	<string>                    guard strongSelf.blkTapNormalCell != nil  else {
+                        return
+                    }
+</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>045F802B-3698-44EE-9C2F-1785E539B1E3</string>
+	<string>12E51205-DDE2-46EA-8639-D9702FD5F63C</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Swift</string>
-	<key>IDECodeSnippetSummary</key>
-	<string>guard - custom</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>guard - custom</string>
+	<string>My Code Snippet</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

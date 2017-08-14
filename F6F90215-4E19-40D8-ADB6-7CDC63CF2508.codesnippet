@@ -9,7 +9,7 @@
 		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>HGYLogDebug(message: &lt;#T##T#&gt;)</string>
+	<string>LogDebug(&lt;#self#&gt;)</string>
 	<key>IDECodeSnippetIdentifier</key>
 	<string>F6F90215-4E19-40D8-ADB6-7CDC63CF2508</string>
 	<key>IDECodeSnippetLanguage</key>

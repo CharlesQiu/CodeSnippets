@@ -3,21 +3,32 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>guard - custom</string>
+	<string>cs_struct_model</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
-		<string>CodeExpression</string>
+		<string>TopLevel</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>guard &lt;#condition#&gt; else { return }</string>
+	<string>import ObjectMapper
+
+struct &lt;#Name#&gt;: Mappable {
+
+    init() { }
+
+    init?(map: Map) { }
+
+    mutating func mapping(map: Map) {
+
+    }
+}</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>045F802B-3698-44EE-9C2F-1785E539B1E3</string>
+	<string>3B1C0DC2-6F94-4DFA-BF45-5541BE1D64A2</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Swift</string>
 	<key>IDECodeSnippetSummary</key>
-	<string>guard - custom</string>
+	<string>cs_struct_model</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>guard - custom</string>
+	<string>cs_struct_model</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
