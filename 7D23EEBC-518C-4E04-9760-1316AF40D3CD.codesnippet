@@ -9,7 +9,7 @@
 		<string>ClassImplementation</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>&lt;#private #&gt; func &lt;#name#&gt;(&lt;#parameters#&gt;) {
+	<string>private func &lt;#name#&gt;(&lt;#parameters#&gt;) {
    &lt;#function body#&gt;
 }</string>
 	<key>IDECodeSnippetIdentifier</key>
@@ -17,9 +17,9 @@
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Swift</string>
 	<key>IDECodeSnippetSummary</key>
-	<string>func none return</string>
+	<string>func(private) none return</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>func none return</string>
+	<string>func(private) none return</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
