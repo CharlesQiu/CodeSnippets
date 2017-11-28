@@ -3,21 +3,21 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>MARK: - TableView Datasource &amp; Delegate</string>
+	<string>MARK: - UITableViewDataSource</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
-		<string>ClassImplementation</string>
+		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>// MARK: - TableView Datasource &amp; Delegate</string>
+	<string>// MARK: - UITableViewDataSource</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>4080B2BD-8345-47D5-BD05-3B9E95FBC6B8</string>
+	<string>7CCB0A07-4B36-4607-9355-05194910B612</string>
 	<key>IDECodeSnippetLanguage</key>
-	<string>Xcode.SourceCodeLanguage.Swift</string>
+	<string>Xcode.SourceCodeLanguage.Generic</string>
 	<key>IDECodeSnippetSummary</key>
-	<string>MARK: - TableView Datasource &amp; Delegate</string>
+	<string>MARK: - UITableViewDataSource</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>MARK: - TableView Datasource &amp; Delegate</string>
+	<string>TableView 数据源代理</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

@@ -3,21 +3,21 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>MARK: Constants</string>
+	<string>unowned self</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
-		<string>ClassImplementation</string>
+		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>// MARK: - Constants</string>
+	<string>[unowned self]</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>F924ED7B-7AB9-4F54-B4FE-642267497788</string>
+	<string>9A78AFB9-23B8-4D5E-87F2-1D4E8D54037C</string>
 	<key>IDECodeSnippetLanguage</key>
-	<string>Xcode.SourceCodeLanguage.Swift</string>
+	<string>Xcode.SourceCodeLanguage.Generic</string>
 	<key>IDECodeSnippetSummary</key>
-	<string>MARK: Constants</string>
+	<string>unowned self</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>常量</string>
+	<string>unowned self</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

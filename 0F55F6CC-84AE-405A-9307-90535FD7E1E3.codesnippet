@@ -3,21 +3,21 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>MARK: - Add constraints</string>
+	<string>MARK: - Constraints</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>ClassImplementation</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>// MARK: - Add constraints</string>
+	<string>// MARK: - Constraints</string>
 	<key>IDECodeSnippetIdentifier</key>
 	<string>0F55F6CC-84AE-405A-9307-90535FD7E1E3</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Swift</string>
 	<key>IDECodeSnippetSummary</key>
-	<string>MARK: - Add constraints</string>
+	<string>MARK: - Constraints</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>MARK: - Add constraints</string>
+	<string>约束</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

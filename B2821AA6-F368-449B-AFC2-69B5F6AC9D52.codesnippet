@@ -3,21 +3,21 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>MARK: Constants</string>
+	<string>mark - tableviewdelegate</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
-		<string>ClassImplementation</string>
+		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>// MARK: - Constants</string>
+	<string>// MARK: - UITableViewDelegate</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>F924ED7B-7AB9-4F54-B4FE-642267497788</string>
+	<string>B2821AA6-F368-449B-AFC2-69B5F6AC9D52</string>
 	<key>IDECodeSnippetLanguage</key>
-	<string>Xcode.SourceCodeLanguage.Swift</string>
+	<string>Xcode.SourceCodeLanguage.Generic</string>
 	<key>IDECodeSnippetSummary</key>
-	<string>MARK: Constants</string>
+	<string>mark - tableviewdelegate</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>常量</string>
+	<string>TableView 代理</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
