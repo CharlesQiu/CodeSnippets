@@ -9,7 +9,7 @@
 		<string>ClassImplementation</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>// MARK: - View Controller Life Cycle</string>
+	<string>// MARK: - VC Life Cycle VC 生命周期</string>
 	<key>IDECodeSnippetIdentifier</key>
 	<string>DF2884CB-FEF6-4BF5-AD8A-9BB8C037E904</string>
 	<key>IDECodeSnippetLanguage</key>

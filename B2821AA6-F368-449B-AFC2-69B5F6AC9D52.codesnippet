@@ -9,7 +9,7 @@
 		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>// MARK: - UITableViewDelegate</string>
+	<string>// MARK: - TableView 代理</string>
 	<key>IDECodeSnippetIdentifier</key>
 	<string>B2821AA6-F368-449B-AFC2-69B5F6AC9D52</string>
 	<key>IDECodeSnippetLanguage</key>

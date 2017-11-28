@@ -9,7 +9,7 @@
 		<string>ClassImplementation</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>// MARK: - UITextField Delegate</string>
+	<string>// MARK: - UITextField 代理</string>
 	<key>IDECodeSnippetIdentifier</key>
 	<string>4B730E82-1BE3-471D-81A2-1D017AD4C08B</string>
 	<key>IDECodeSnippetLanguage</key>

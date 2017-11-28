@@ -9,7 +9,7 @@
 		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>// MARK: - UITableViewDataSource</string>
+	<string>// MARK: - UITableViewDataSource TableView 数据源代理</string>
 	<key>IDECodeSnippetIdentifier</key>
 	<string>7CCB0A07-4B36-4607-9355-05194910B612</string>
 	<key>IDECodeSnippetLanguage</key>

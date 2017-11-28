@@ -9,7 +9,7 @@
 		<string>ClassImplementation</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>// MARK: - Setup</string>
+	<string>// MARK: - Setup 初始化设置</string>
 	<key>IDECodeSnippetIdentifier</key>
 	<string>455FA76C-DA18-40C5-A272-5AFB86FFD63B</string>
 	<key>IDECodeSnippetLanguage</key>
