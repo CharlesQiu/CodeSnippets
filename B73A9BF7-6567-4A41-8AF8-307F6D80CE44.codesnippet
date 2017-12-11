@@ -3,21 +3,21 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>cs_comment</string>
+	<string>MARK: - Protocol</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>/// &lt;#comment#&gt;</string>
+	<string>// MARK: - Protocol &lt;#name#&gt;</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>40A6A218-C2FB-4D84-B319-288435ED8F50</string>
+	<string>B73A9BF7-6567-4A41-8AF8-307F6D80CE44</string>
 	<key>IDECodeSnippetLanguage</key>
-	<string>Xcode.SourceCodeLanguage.Swift</string>
+	<string>Xcode.SourceCodeLanguage.Generic</string>
 	<key>IDECodeSnippetSummary</key>
-	<string>cs_comment</string>
+	<string>MARK: - Protocol</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>cs_comment(/// )</string>
+	<string>协议 Protocol</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

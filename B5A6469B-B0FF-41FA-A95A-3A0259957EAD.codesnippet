@@ -10,8 +10,7 @@
 	</array>
 	<key>IDECodeSnippetContents</key>
 	<string>    // MARK: - Setup Views
-    override func setupViews() {
-        super.setupViews()
+    private func setup() {
 
     }
 </string>

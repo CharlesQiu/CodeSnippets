@@ -3,24 +3,25 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>cs_comment</string>
+	<string>singleton</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>/// &lt;# comment#&gt;</string>
+	<string>static let shared: Application = Application()
+private init() { }</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>DFD3C8A6-DC6E-458C-943E-DF0FF90E0F38</string>
+	<string>FEB4428F-BD79-4F76-BF79-28DE40C75C92</string>
 	<key>IDECodeSnippetLanguage</key>
-	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<string>Xcode.SourceCodeLanguage.Swift</string>
 	<key>IDECodeSnippetSummary</key>
-	<string>cs_comment(///)</string>
+	<string>singleton</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>cs_comment(///)</string>
+	<string>单例</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
-	<integer>2</integer>
+	<integer>0</integer>
 </dict>
 </plist>

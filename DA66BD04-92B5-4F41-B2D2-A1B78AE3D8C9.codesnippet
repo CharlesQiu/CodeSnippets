@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>cs_comment</string>
+	<string>comment_b</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>All</string>
@@ -15,11 +15,11 @@
 	<key>IDECodeSnippetIdentifier</key>
 	<string>DA66BD04-92B5-4F41-B2D2-A1B78AE3D8C9</string>
 	<key>IDECodeSnippetLanguage</key>
-	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<string>Xcode.SourceCodeLanguage.Swift</string>
 	<key>IDECodeSnippetSummary</key>
-	<string>cs_comment(/**\n*/)</string>
+	<string>comment_b</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>cs_comment(/**\n*/)</string>
+	<string>(/**\n*/)</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
