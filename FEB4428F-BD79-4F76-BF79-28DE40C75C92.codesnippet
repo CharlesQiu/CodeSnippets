@@ -9,7 +9,8 @@
 		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>static let shared: Application = Application()
+	<string>public static let shared: CoreDataManager = CoreDataManager()
+public class func instance() -&gt; CoreDataManager { return shared }
 private init() { }</string>
 	<key>IDECodeSnippetIdentifier</key>
 	<string>FEB4428F-BD79-4F76-BF79-28DE40C75C92</string>
@@ -22,6 +23,6 @@ private init() { }</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
-	<integer>0</integer>
+	<integer>2</integer>
 </dict>
 </plist>
