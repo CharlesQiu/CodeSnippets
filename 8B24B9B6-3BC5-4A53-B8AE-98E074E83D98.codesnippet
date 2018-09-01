@@ -9,10 +9,7 @@
 		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>/**
- * &lt;#Description#&gt;
- */
-- (&lt;#class#&gt;)&lt;#metod name#&gt;</string>
+	<string>- (&lt;#class#&gt;)&lt;#metod name#&gt;</string>
 	<key>IDECodeSnippetIdentifier</key>
 	<string>8B24B9B6-3BC5-4A53-B8AE-98E074E83D98</string>
 	<key>IDECodeSnippetLanguage</key>
