@@ -3,28 +3,28 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>define_b</string>
+	<string>define_a</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
 	<string>/** &lt;#documentation#&gt; */
-#define &lt;#name#&gt; &lt;#body#&gt;
+#define &lt;#name#&gt;(&lt;#args#&gt;) &lt;#body#&gt;
 </string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>D085ECD5-A779-43DC-96E7-A7FCC5A03228</string>
+	<string>4805C3B3-947B-4408-AEC4-69D412AFE120</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Objective-C</string>
 	<key>IDECodeSnippetSummary</key>
 	<string>/** &lt;#documentation#&gt; */
-#define &lt;#name#&gt; &lt;#body#&gt;
+#define &lt;#name#&gt;(&lt;#args#&gt;) &lt;#body#&gt;
 </string>
 	<key>IDECodeSnippetTitle</key>
-	<string>define_b</string>
+	<string>define_a</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
-	<integer>2</integer>
+	<integer>0</integer>
 </dict>
 </plist>
