@@ -11,8 +11,7 @@
 	<key>IDECodeSnippetContents</key>
 	<string>/**
  * &lt;#Description#&gt;
- */
-</string>
+ */</string>
 	<key>IDECodeSnippetIdentifier</key>
 	<string>AA4D000F-AABF-4A3A-B816-138E4AA961E9</string>
 	<key>IDECodeSnippetLanguage</key>
@@ -27,6 +26,6 @@
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
-	<integer>0</integer>
+	<integer>2</integer>
 </dict>
 </plist>

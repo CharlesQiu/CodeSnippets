@@ -9,8 +9,7 @@
 		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>/**************** &lt;#comment#&gt; ***************/
-</string>
+	<string>/**************** &lt;#comment#&gt; ***************/</string>
 	<key>IDECodeSnippetIdentifier</key>
 	<string>322757BD-439A-4926-AA5E-4094219BB6B7</string>
 	<key>IDECodeSnippetLanguage</key>
@@ -23,6 +22,6 @@
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
-	<integer>0</integer>
+	<integer>2</integer>
 </dict>
 </plist>
