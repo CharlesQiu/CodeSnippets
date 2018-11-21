@@ -11,11 +11,7 @@
 	<key>IDECodeSnippetContents</key>
 	<string>struct &lt;#struct#&gt; {
     
-
-    init(response: HGYHttpResponse) {
-    }
-}
-</string>
+}</string>
 	<key>IDECodeSnippetIdentifier</key>
 	<string>18EE6069-94CB-4BBF-9234-69B586D2C216</string>
 	<key>IDECodeSnippetLanguage</key>
