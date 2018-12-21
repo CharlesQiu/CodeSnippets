@@ -3,26 +3,24 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>comment_c</string>
+	<string>guard_request_promise</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>/**
- * &lt;#Description#&gt;
- */</string>
+	<string>    guard res.succ else {
+    seal.reject(BaseError(res.msg))
+        return
+    }</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>AA4D000F-AABF-4A3A-B816-138E4AA961E9</string>
+	<string>E9232E93-72E9-44DA-AB1B-B76F57DD0F3B</string>
 	<key>IDECodeSnippetLanguage</key>
-	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<string>Xcode.SourceCodeLanguage.Swift</string>
 	<key>IDECodeSnippetSummary</key>
-	<string>/**
- * &lt;#Description#&gt;
- */
-</string>
+	<string>guard_request_promise</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>comment_c</string>
+	<string>guard_request_promise</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

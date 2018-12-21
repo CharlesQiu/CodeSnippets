@@ -3,26 +3,24 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>comment_c</string>
+	<string>guard_request_toast</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>/**
- * &lt;#Description#&gt;
- */</string>
+	<string>guard res.succ else {
+    QQQToast.toast(.error(res.msg))
+    return
+}</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>AA4D000F-AABF-4A3A-B816-138E4AA961E9</string>
+	<string>627E8640-7D95-4591-960E-8285D3CAAF5E</string>
 	<key>IDECodeSnippetLanguage</key>
-	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<string>Xcode.SourceCodeLanguage.Swift</string>
 	<key>IDECodeSnippetSummary</key>
-	<string>/**
- * &lt;#Description#&gt;
- */
-</string>
+	<string>guard_request_toast</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>comment_c</string>
+	<string>guard_request_toast</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
