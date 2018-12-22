@@ -11,7 +11,7 @@
 	<key>IDECodeSnippetContents</key>
 	<string>public static let shared: CoreDataManager = CoreDataManager()
 public class func instance() -&gt; CoreDataManager { return shared }
-private init() { }</string>
+private override init() { }</string>
 	<key>IDECodeSnippetIdentifier</key>
 	<string>FEB4428F-BD79-4F76-BF79-28DE40C75C92</string>
 	<key>IDECodeSnippetLanguage</key>
