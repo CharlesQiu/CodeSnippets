@@ -18,11 +18,11 @@
             return true
         }
         guard let str = textField.text else { return true }
-        if str.trimmed.count == 3 ||  str.trimmed.count == 8 {
+        if str.replacingOccurrences(of: " ", with: "").count == 3 ||  str.replacingOccurrences(of: " ", with: "").count == 7 {
             textField.text = str + " " + string
             return false
         }
-        if str.trimmed.count &gt; 12 {
+        if str.replacingOccurrences(of: " ", with: "").count &gt; 12 {
             return false
         }
         return true
