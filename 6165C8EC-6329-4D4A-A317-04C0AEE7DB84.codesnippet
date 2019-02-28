@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>textfield-phone-input</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>All</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>    func textField(_ textField: UITextField, shouldChangeCharactersIn range: NSRange, replacementString string: String) -&gt; Bool {
+        guard !string.isEmpty else {
+            if String(textField.text!.dropLast(1)).hasSuffix(" ") {
+                textField.text = String(textField.text!.dropLast(2))
+                return false
+            }
+            return true
+        }
+        guard let str = textField.text else { return true }
+        if str.trimmed.count == 3 ||  str.trimmed.count == 8 {
+            textField.text = str + " " + string
+            return false
+        }
+        if str.trimmed.count &gt; 12 {
+            return false
+        }
+        return true
+    }</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>6165C8EC-6329-4D4A-A317-04C0AEE7DB84</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Swift</string>
+	<key>IDECodeSnippetSummary</key>
+	<string>textfield-手机号码输入</string>
+	<key>IDECodeSnippetTitle</key>
+	<string>textfield-手机号码输入</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>0</integer>
+</dict>
+</plist>
