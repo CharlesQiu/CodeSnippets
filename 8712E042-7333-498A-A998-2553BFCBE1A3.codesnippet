@@ -3,24 +3,24 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>cs_dispose</string>
+	<string>cs_error</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>private let dispose: DisposeBag = DisposeBag()</string>
+	<string>// ERROR: &lt;#error#&gt;</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>A42DDA55-906F-4FA0-A3EF-4C4AA0A1D372</string>
+	<string>8712E042-7333-498A-A998-2553BFCBE1A3</string>
 	<key>IDECodeSnippetLanguage</key>
-	<string>Xcode.SourceCodeLanguage.Swift</string>
+	<string>Xcode.SourceCodeLanguage.Generic</string>
 	<key>IDECodeSnippetSummary</key>
-	<string>disposebag</string>
+	<string>cs_error</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>cs_dispose</string>
+	<string>cs_error</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
-	<integer>2</integer>
+	<integer>0</integer>
 </dict>
 </plist>
