@@ -3,23 +3,25 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>cs_promise</string>
+	<string>method_promiskit</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>return QQQPromise { seal in
-    
-        }</string>
+	<string>- (AnyPromise *)pms&lt;#method name#&gt;:(NSString *)phone {
+    return [AnyPromise promiseWithResolverBlock:^(PMKResolver _Nonnull seal) {
+        
+    }];
+}</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>6323A39C-B880-46B4-BE72-59202365981E</string>
+	<string>FFFEEB94-9588-4FFC-B597-FB4F3D3B2E62</string>
 	<key>IDECodeSnippetLanguage</key>
-	<string>Xcode.SourceCodeLanguage.Swift</string>
+	<string>Xcode.SourceCodeLanguage.Objective-C</string>
 	<key>IDECodeSnippetSummary</key>
-	<string>cs_promise</string>
+	<string>promiskit oc</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>cs_promise</string>
+	<string>promiskit oc</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

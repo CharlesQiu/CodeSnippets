@@ -9,8 +9,17 @@
 		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>    class func instance() -&gt; SSVideoManager { return SSVideoManager() }
-    private override init() { }</string>
+	<string>final class &lt;#className#&gt;: NSObject {
+    
+    // 线程安全
+    private static let instance = &lt;#className#&gt;()
+    // 构造方法私有化
+    private override init() {  }
+    // 提供一个方法给外部调用
+    class func shared() -&gt; &lt;#className#&gt; {
+        return instance
+    }
+}</string>
 	<key>IDECodeSnippetIdentifier</key>
 	<string>FEB4428F-BD79-4F76-BF79-28DE40C75C92</string>
 	<key>IDECodeSnippetLanguage</key>

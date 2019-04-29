@@ -3,23 +3,21 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>cs_promise</string>
+	<string>import-swift</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>return QQQPromise { seal in
-    
-        }</string>
+	<string>#import "ArtZhe-Swift.h"</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>6323A39C-B880-46B4-BE72-59202365981E</string>
+	<string>0D0311EE-1AC3-4841-88F2-3DFA50C9D138</string>
 	<key>IDECodeSnippetLanguage</key>
-	<string>Xcode.SourceCodeLanguage.Swift</string>
+	<string>Xcode.SourceCodeLanguage.Generic</string>
 	<key>IDECodeSnippetSummary</key>
-	<string>cs_promise</string>
+	<string>引入swift</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>cs_promise</string>
+	<string>引入swift</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
