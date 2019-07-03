@@ -3,21 +3,27 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>MARK: &lt;#mark#&gt;</string>
+	<string>cs_rx_notification</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>// MARK: - &lt;#mark#&gt; </string>
+	<string>NotificationCenter.default
+.rx.notification(custom: &lt;#name#&gt;)
+.debounce(0.1, scheduler: MainScheduler.instance)
+.takeUntil(self.rx.deallocated)
+.subscribe { [unowned self] (value) in
+    &lt;#code#&gt;
+            }.disposed(by: dispose)</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>1146F213-B14A-4FB0-A836-1C90E78BACD9</string>
+	<string>E0CB5649-B7E9-4B3A-800F-263D688043DD</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Generic</string>
 	<key>IDECodeSnippetSummary</key>
-	<string>MARK: &lt;#mark#&gt;</string>
+	<string>cs_rx_notification</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>🌈🌈🌈🌈🌈</string>
+	<string>cs_rx_notification</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

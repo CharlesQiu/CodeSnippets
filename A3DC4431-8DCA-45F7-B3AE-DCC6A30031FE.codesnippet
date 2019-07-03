@@ -3,21 +3,22 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>MARK: &lt;#mark#&gt;</string>
+	<string>main_spinner_loading</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>// MARK: - &lt;#mark#&gt; </string>
+	<string>main { spinnerLoading() }
+</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>1146F213-B14A-4FB0-A836-1C90E78BACD9</string>
+	<string>A3DC4431-8DCA-45F7-B3AE-DCC6A30031FE</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Generic</string>
 	<key>IDECodeSnippetSummary</key>
-	<string>MARK: &lt;#mark#&gt;</string>
+	<string>main_spinner_loading</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>🌈🌈🌈🌈🌈</string>
+	<string>main_spinner_loading</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

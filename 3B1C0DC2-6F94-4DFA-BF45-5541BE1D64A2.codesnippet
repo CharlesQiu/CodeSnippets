@@ -14,7 +14,6 @@
 struct &lt;#Name#&gt;: Mappable {
 
     init() { }
-
     init?(map: Map) { }
 
     mutating func mapping(map: Map) {

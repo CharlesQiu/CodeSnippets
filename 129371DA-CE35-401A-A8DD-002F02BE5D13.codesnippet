@@ -3,16 +3,16 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>cs_guard_reqest</string>
+	<string>cs_pms_request_guard</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
 	<string>guard res.succ else {
-toastError(BaseError(res.msg))
+seal.reject(BaseError(res.msg))
 return
-            }</string>
+                }</string>
 	<key>IDECodeSnippetIdentifier</key>
 	<string>129371DA-CE35-401A-A8DD-002F02BE5D13</string>
 	<key>IDECodeSnippetLanguage</key>

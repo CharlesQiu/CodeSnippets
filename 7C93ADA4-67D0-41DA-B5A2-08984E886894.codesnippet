@@ -3,21 +3,22 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>MARK: &lt;#mark#&gt;</string>
+	<string>main_toast</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>// MARK: - &lt;#mark#&gt; </string>
+	<string>main { err.toast() }
+</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>1146F213-B14A-4FB0-A836-1C90E78BACD9</string>
+	<string>7C93ADA4-67D0-41DA-B5A2-08984E886894</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Generic</string>
 	<key>IDECodeSnippetSummary</key>
-	<string>MARK: &lt;#mark#&gt;</string>
+	<string>main_toast</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>🌈🌈🌈🌈🌈</string>
+	<string>main_toast</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
