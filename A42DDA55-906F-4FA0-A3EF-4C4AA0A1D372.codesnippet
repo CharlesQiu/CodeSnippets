@@ -9,7 +9,7 @@
 		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>private let dispose: DisposeBag = DisposeBag()</string>
+	<string>private let dispose: Dispose = Dispose()</string>
 	<key>IDECodeSnippetIdentifier</key>
 	<string>A42DDA55-906F-4FA0-A3EF-4C4AA0A1D372</string>
 	<key>IDECodeSnippetLanguage</key>

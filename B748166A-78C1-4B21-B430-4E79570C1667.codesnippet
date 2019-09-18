@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>cs_table_vc</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>TopLevel</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>class &lt;#DWRHomeVC#&gt;: QQQBaseVC {
+
+    private let vm: &lt;#DWRHomeVM#&gt; = &lt;#DWRHomeVM#&gt;()
+    private lazy var tableView: QQQTableView = {
+        let t: QQQTableView = QQQTableView(style: .plain,
+                                           separatorLeft: 0,
+                                           separatorRight: 0,
+                                           estimatedRowHeight: 75,
+                                           registerCells: [&lt;#DWRHomeCell#&gt;.self],
+                                           canRefreshing: true,
+                                           canLoadMore: false)
+        t.separatorStyle = .none
+        t.delegate = self
+        t.dataSource = self
+        return t
+    }()
+    
+    override func viewDidLoad() {
+        super.viewDidLoad()
+
+        // Do any additional setup after loading the view.
+    }
+    
+    override func setupNav() {
+        
+    }
+    
+    override func setupViews() {
+        view.addSubview(tableView)
+        tableView.pin.all()
+        
+        setupDatas()
+    }
+    
+    override func setupDatas(_ isRefresh: Bool = true) {
+        vm.reqDatas()
+            .done { (_) in
+            
+            }.catch { (err) in
+                err.toast()
+        }
+    }
+}
+
+extension &lt;#DWRHomeVC#&gt;: UITableViewDataSource, UITableViewDelegate {
+    
+    func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -&gt; Int {
+        return vm.vms.count
+    }
+    
+    func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -&gt; UITableViewCell {
+        let cell: &lt;#DWRHomeCell#&gt; = tableView.dequeueReusableCell(for: indexPath)
+        
+        return cell
+    }
+    
+}</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>B748166A-78C1-4B21-B430-4E79570C1667</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Swift</string>
+	<key>IDECodeSnippetSummary</key>
+	<string>table = QQQTableView</string>
+	<key>IDECodeSnippetTitle</key>
+	<string>快速生成包含 table 的 vc</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>2</integer>
+</dict>
+</plist>

@@ -3,21 +3,27 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>fixme</string>
+	<string>cs_guard_strong</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>// FIXME:&lt;#bug#&gt;</string>
+	<string>guard let `self` = self else {
+    seal.fulfill(true)
+    return
+}
+</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>DF73B97E-DA07-43A4-8DBF-0658D2D719FA</string>
+	<string>81444503-5E2E-4B58-9035-E04ECC5D6CD5</string>
 	<key>IDECodeSnippetLanguage</key>
-	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<string>Xcode.SourceCodeLanguage.Swift</string>
+	<key>IDECodeSnippetPlatformFamily</key>
+	<string>iphoneos</string>
 	<key>IDECodeSnippetSummary</key>
-	<string>fixme</string>
+	<string>cs_pms_guard</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>fixme</string>
+	<string>cs_pms_strong_self_guard</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
